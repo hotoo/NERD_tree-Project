@@ -68,7 +68,7 @@ let loaded_nerdtreeproject = 1
 
 " set default filename for local vimrc
 if !exists("g:NTPNames")
-  let g:NTPNames = ['build.xml', 'pom.xml', 'Makefile', '.project', '.lvimrc']
+  let g:NTPNames = ['package.json', 'build.xml', 'pom.xml', 'Makefile', '.project', '.lvimrc']
 endif
 if !exists("g:NTPNamesDirs")
   let g:NTPNamesDirs = ['.git']
